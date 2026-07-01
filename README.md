@@ -76,6 +76,7 @@ mindmap
 ## 👩‍💻 Author
 
 **_Do Hai Minh An_ (Do Le Phuong)**
+
 Frontend Labs Journey • HTML Semantic Mastery Series.
 
 [![Email](https://img.shields.io/badge/Email-dhaiminhan%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dhaiminhan@gmail.com)
