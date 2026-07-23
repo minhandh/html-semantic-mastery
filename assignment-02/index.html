@@ -28,7 +28,7 @@
       name="twitter:image"
       content="https://elevatefitness.com/assets/images/twitter-image.png"
     />
-    <meta name="twitter:site" content="@elavate_fit" />
+    <meta name="twitter:site" content="@elevate_fit" />
 
     <meta
       property="og:title"
@@ -69,18 +69,26 @@
 
     <header class="header">
       <div class="header__brand">
-        <picture>
-          <source srcset="./assets/images/brand-logo.avif" type="image/avif" />
-          <source srcset="./assets/images/brand-logo.webp" type="image/webp" />
-          <img
-            src="./assets/images/brand-logo.png"
-            alt="Elevate Fitness Official"
-            class="header__image"
-            width="200"
-            height="60"
-            decoding="async"
-          />
-        </picture>
+        <a href="/" class="header__brand-link">
+          <picture>
+            <source
+              srcset="./assets/images/brand-logo.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="./assets/images/brand-logo.webp"
+              type="image/webp"
+            />
+            <img
+              src="./assets/images/brand-logo.png"
+              alt="Elevate Fitness Official"
+              class="header__image"
+              width="200"
+              height="60"
+              decoding="async"
+            />
+          </picture>
+        </a>
       </div>
     </header>
 
@@ -213,6 +221,7 @@
                   name="contact-method"
                   id="contact-email"
                   value="contact-email"
+                  required
                   class="coaching__checkbox"
                 />
                 <label for="contact-email" class="coaching__label-field"
@@ -225,6 +234,7 @@
                   name="contact-method"
                   id="contact-phone-call"
                   value="contact-phone-call"
+                  required
                   class="coaching__checkbox"
                 />
                 <label for="contact-phone-call" class="coaching__label-field"
@@ -237,6 +247,7 @@
                   name="contact-method"
                   id="contact-whatsapp"
                   value="contact-whatsapp"
+                  required
                   class="coaching__checkbox"
                 />
                 <label for="contact-whatsapp" class="coaching__label-field"
