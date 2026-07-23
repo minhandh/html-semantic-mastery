@@ -89,14 +89,15 @@ html-semantic-mastery
 |  #  | Assignment                                                                                      | Status |
 | :-: | ----------------------------------------------------------------------------------------------- | :----: |
 | 01  | [TechNova Blog Post](https://github.com/minhandh/html-semantic-mastery/tree/main/assignment-01) |   ✅   |
-| 02  | Coming Soon                                                                                     |   ⏳   |
+| 02  | [Elevate Fitness](https://github.com/minhandh/html-semantic-mastery/tree/main/assignment-02)    |   ✅   |
+| 03  | Coming Soon                                                                                     |   ⏳   |
 
 ---
 
 ## 🚀 Current Progress
 
-- **Completed Assignments:** **01 / 50**
-- **Current Focus:** Assignment 02
+- **Completed Assignments:** **02 / 50**
+- **Current Focus:** Assignment 03
 - **Repository Status:** 🚧 In Progress
 
 ---
