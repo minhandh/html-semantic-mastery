@@ -179,14 +179,8 @@ By relying exclusively on HTML5 semantic elements, the page remains meaningful e
 
 **_Do Hai Minh An (Do Le Phuong)_**
 
-Frontend Development Journey
+Currently building **Minhai Labs**, a personal frontend development initiative.
 
-Focused on:
+**_HTML Semantic Mastery Series · Business Case 02_**
 
-- Semantic HTML
-- Accessibility
-- SEO
-- Clean Code
-- Modern Frontend Architecture
-
-**_Business Case 01 · HTML Semantic Foundation_**
+Passionate about Semantic HTML, Accessibility, SEO, Clean Code, and Modern Frontend Development.
