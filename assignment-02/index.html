@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ready to transform your body? Fill out our application form to get a personalized online coaching plan from Elevate Fitness experts."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://elevatefitness.com/apply" />
+
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/banner.avif"
+      type="image/avif"
+      fetchpriority="high"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Apply for Online Coaching" />
+    <meta
+      name="twitter:description"
+      content="Ready to transform your body? Fill out our application form today."
+    />
+    <meta
+      name="twitter:image"
+      content="https://elevatefitness.com/assets/images/twitter-image.png"
+    />
+    <meta name="twitter:site" content="@elavate_fit" />
+
+    <meta
+      property="og:title"
+      content="Apply for Online Coaching | Elevate Fitness"
+    />
+    <meta
+      property="og:description"
+      content="Ready to transform your body? Fill out our application form today."
+    />
+    <meta property="og:url" content="https://elevatefitness.com/apply" />
+    <meta
+      property="og:image"
+      content="https://elevatefitness.com/assets/images/og-image.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Elevate Fitness" />
+
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon-96x96.png"
+      type="image/png"
+      sizes="96x96"
+    />
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png" />
+    <link
+      rel="apple-touch-icon"
+      href="./assets/images/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <title>Apply for Online Coaching | Elevate Fitness</title>
+  </head>
+  <body class="layout">
+    <a href="#main-content" class="skip-link">Skip to the main content</a>
+
+    <header class="header">
+      <div class="header__brand">
+        <picture>
+          <source srcset="./assets/images/brand-logo.avif" type="image/avif" />
+          <source srcset="./assets/images/brand-logo.webp" type="image/webp" />
+          <img
+            src="./assets/images/brand-logo.png"
+            alt="Elevate Fitness Official"
+            class="header__image"
+            width="200"
+            height="60"
+            decoding="async"
+          />
+        </picture>
+      </div>
+    </header>
+
+    <main id="main-content" class="main">
+      <section class="main__content" aria-labelledby="main-title">
+        <h1 id="main-title" class="main__title">Online Coaching Application</h1>
+
+        <figure class="main__card">
+          <picture>
+            <source srcset="./assets/images/banner.avif" type="image/avif" />
+            <source srcset="./assets/images/banner.webp" type="image/webp" />
+            <img
+              src="./assets/images/banner.png"
+              alt="Start your fitness journey banner"
+              class="main__image"
+              width="1000"
+              height="300"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </picture>
+        </figure>
+
+        <p class="main__desc">
+          Please fill out the form below ith your accurate information. Our head
+          coach will review your application and get back to you within 24
+          hours. Fields marked with an asterisk (*) are required.
+        </p>
+
+        <form
+          action="/submit"
+          method="post"
+          class="main__form coaching"
+          autocomplete="on"
+          accept-charset="UTF-8"
+        >
+          <div class="coaching__field">
+            <label for="full-name" class="coaching__label">
+              Full Name:
+              <span class="coaching__required" aria-hidden="true">(*)</span>
+            </label>
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              required
+              placeholder="e.g., John Doe"
+              autocomplete="name"
+              class="coaching__input"
+            />
+          </div>
+
+          <div class="coaching__field">
+            <label for="email" class="coaching__label">
+              Email:
+              <span class="coaching__required" aria-hidden="true">(*)</span>
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="e.g., you@example.com"
+              autocomplete="email"
+              class="coaching__input"
+            />
+          </div>
+
+          <div class="coaching__field">
+            <label for="phone" class="coaching__label">Phone:</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="e.g., +84868605521"
+              autocomplete="tel"
+              aria-describedby="coaching-hint"
+              class="coaching__input"
+            />
+            <span class="coaching__hint" id="coaching-hint">
+              We will only use this to send you training updates.
+            </span>
+          </div>
+
+          <fieldset class="coaching__group">
+            <legend class="coaching__legend">
+              Primary Fitness Goal:
+              <span class="coaching__required" aria-hidden="true">(*)</span>
+            </legend>
+
+            <div class="coaching__field">
+              <select
+                name="goal"
+                id="goal"
+                required
+                aria-label="Primary Fitness Goal"
+                class="coaching__select"
+              >
+                <option
+                  value=""
+                  disabled
+                  selected
+                  class="coaching__item coaching__item--selected"
+                >
+                  --- Choose primary fitness goal
+                </option>
+                <option value="lose-weight" class="coaching__item">
+                  Lose Weight
+                </option>
+                <option value="build-muscle" class="coaching__item">
+                  Build Muscle
+                </option>
+                <option value="improve-endurance" class="coaching__item">
+                  Improve Endurance
+                </option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset class="coaching__group">
+            <legend class="coaching__legend">
+              Preferred Contact Methods:
+              <span class="coaching__required" aria-hidden="true">(*)</span>
+            </legend>
+
+            <div class="coaching__fields">
+              <div class="coaching__field">
+                <input
+                  type="checkbox"
+                  name="contact-method"
+                  id="contact-email"
+                  value="contact-email"
+                  class="coaching__checkbox"
+                />
+                <label for="contact-email" class="coaching__label-field"
+                  >Email</label
+                >
+              </div>
+              <div class="coaching__field">
+                <input
+                  type="checkbox"
+                  name="contact-method"
+                  id="contact-phone-call"
+                  value="contact-phone-call"
+                  class="coaching__checkbox"
+                />
+                <label for="contact-phone-call" class="coaching__label-field"
+                  >Phone Call</label
+                >
+              </div>
+              <div class="coaching__field">
+                <input
+                  type="checkbox"
+                  name="contact-method"
+                  id="contact-whatsapp"
+                  value="contact-whatsapp"
+                  class="coaching__checkbox"
+                />
+                <label for="contact-whatsapp" class="coaching__label-field"
+                  >WhatsApp</label
+                >
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="coaching__field">
+            <label for="additional-information" class="coaching__label"
+              >Additional Information:</label
+            >
+            <textarea
+              name="additional-information"
+              id="additional-information"
+              rows="10"
+              cols="100"
+              placeholder="Input your additional information here..."
+              class="coaching__textarea"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="coaching__button btn btn--primary">
+            Submit Application
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__copyright">
+        <small>&copy; 2026 Elevate Fitness. All rights reserved.</small>
+      </div>
+    </footer>
+  </body>
+</html>
