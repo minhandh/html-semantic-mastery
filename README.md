@@ -86,16 +86,17 @@ html-semantic-mastery
 
 ## 🗺️ Learning Roadmap
 
-|  #  | Assignment  | Status |
-| :-: | ----------- | :----: |
-| 01  | Coming Soon |   ⏳   |
+|  #  | Assignment                                                                                      | Status |
+| :-: | ----------------------------------------------------------------------------------------------- | :----: |
+| 01  | [TechNova Blog Post](https://github.com/minhandh/html-semantic-mastery/tree/main/assignment-01) |   ✅   |
+| 02  | Coming Soon                                                                                     |   ⏳   |
 
 ---
 
 ## 🚀 Current Progress
 
-- **Completed Assignments:** **00 / 50**
-- **Current Focus:** Assignment 01
+- **Completed Assignments:** **01 / 50**
+- **Current Focus:** Assignment 02
 - **Repository Status:** 🚧 In Progress
 
 ---
