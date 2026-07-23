@@ -1,0 +1,19 @@
+# ==================================================
+# HTML Semantic Mastery.
+# .gitignore Configuration.
+# ==================================================
+# Ignore operating system files and local editor settings
+# that should not be committed to this repository.
+# ==================================================
+
+# ==================================================
+# Operating System Files: Windows, MacOS
+# ==================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==================================================
+# Visual Studio Code: Personal VS Code settings.
+# ==================================================
+.vscode/settings.json
